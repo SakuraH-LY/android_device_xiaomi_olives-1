@@ -16,6 +16,7 @@
 cc_library_static {
     name: "libinit_olives",
     srcs: ["init_olives.cpp"],
+    shared_libs: ["libbase"],
     recovery_available: true,
     include_dirs: [
         "system/core/base/include",

@@ -23,6 +23,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from device.mk
 $(call inherit-product, device/xiaomi/olives/device.mk)
 
+TARGET_BOOT_ANIMATION_RES := 720
+
 PRODUCT_DEVICE := olives
 PRODUCT_NAME := lineage_olives
 PRODUCT_BRAND := Xiaomi

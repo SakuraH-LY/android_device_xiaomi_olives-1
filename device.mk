@@ -30,9 +30,9 @@ PRODUCT_PACKAGES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/permissions/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
-    $(DEVICE_PATH)/permissions/qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti.xml
-
-
+    $(DEVICE_PATH)/permissions/qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti.xml \
+    $(DEVICE_PATH)/permissions/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ims/lib/arm64/libimscamera_jni.so \
+    $(DEVICE_PATH)/permissions/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ims/lib/arm64/libimsmedia_jni.so
     
 # Keylayouts
 PRODUCT_COPY_FILES += \

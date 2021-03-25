@@ -27,6 +27,13 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/permissions/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
+    $(DEVICE_PATH)/permissions/qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti.xml
+
+
+    
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \

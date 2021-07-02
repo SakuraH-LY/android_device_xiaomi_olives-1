@@ -24,7 +24,7 @@ $(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/olives/device.mk)
 
 PRODUCT_DEVICE := olives
-PRODUCT_NAME := exthmui_olives
+PRODUCT_NAME := exthm_olives
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8 Series
 PRODUCT_MANUFACTURER := Xiaomi

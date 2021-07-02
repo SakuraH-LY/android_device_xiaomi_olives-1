@@ -34,10 +34,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ims/lib/arm64/libimscamera_jni.so \
     $(LOCAL_PATH)/permissions/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ims/lib/arm64/libimsmedia_jni.so
 
-# IMS
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ims/ims.apk:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ims/ims.apk
-
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
